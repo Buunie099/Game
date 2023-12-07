@@ -38,7 +38,9 @@
     <script>
     function test(click){
     var item = getRandomInt(1)
-    document.write(item);
+        document.open();
+        document.write(item);
+        document.close();
 }
     </script>
   </body>
